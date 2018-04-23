@@ -14,6 +14,8 @@ group by date
 order by Highestopen DESC
 limit 10
 ```
+![datasets.aapl_historical_stock_price](ICA4/1.jpg)
+
 ## Question 2
 Which 10 dates have the highest close stock price in 2010?
 ```sql
@@ -25,7 +27,7 @@ group by date
 order by Highestclose DESC
 limit 10
 ```
-
+![datasets.aapl_historical_stock_price](ICA4/2.jpg)
 
 ## Question 3
 Which 10 dates have the lowest open stock price in 2010?
@@ -38,6 +40,7 @@ group by date
 order by Minopen ASC
 limit 10
 ```
+![datasets.aapl_historical_stock_price](ICA4/3.jpg)
 
 ## Question 4
 Which 10 dates have the lowest close stock price in 2010?
@@ -50,7 +53,7 @@ group by date
 order by Minclose ASC
 limit 10
 ```
-
+![datasets.aapl_historical_stock_price](ICA4/4.jpg)
 
 ## Question 5
 Which 10 dates have the highest volume in 2010?
@@ -63,3 +66,4 @@ group by date
 order by Highestvolume DESC
 limit 10
 ```
+![datasets.aapl_historical_stock_price](ICA4/5.jpg)
